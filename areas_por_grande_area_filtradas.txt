@@ -1,0 +1,27 @@
+Grande Área: CIENCIAS_SOCIAIS_APLICADAS
+Áreas de Conhecimento: Direito, Arquitetura e Urbanismo, Administração, Comunicação, Desenho Industrial, Serviço Social, Multidisciplinar, Economia, Planejamento Urbano e Regional, Ciência da Informação, Turismo, Museologia, Economia Doméstica, Administração Hospitalar, Demografia, Administração Rural, Ciências Ambientais, Ciências Sociais, Defesa, Educação, Sociologia, Biotecnologia, Relações Internacionais
+
+Grande Área: ENGENHARIAS
+Áreas de Conhecimento: Engenharia de Minas, Engenharia Química, Engenharia de Materiais e Metalúrgica, Engenharia Civil, Engenharia Elétrica, Engenharia Nuclear, Engenharia Aeroespacial, Engenharia Mecânica, Engenharia Biomédica, Engenharia de Produção, Robótica, Mecatrônica e Automação, Engenharia de Transportes, Engenharia Naval e Oceânica, Ciências, Multidisciplinar, Engenharia Sanitária, Engenharia de Energia, Administração Hospitalar, Ciências Ambientais, Carreira Militar, Biotecnologia, Defesa, Microeletrônica, Química, Geociências
+
+Grande Área: CIENCIAS_EXATAS_E_DA_TERRA
+Áreas de Conhecimento: Probabilidade e Estatística, Física, Ciência da Computação, Oceanografia, Química, Geociências, Matemática, Multidisciplinar, Astronomia, Ciências Ambientais, Ciências, Robótica, Mecatrônica e Automação, Administração Hospitalar, Divulgação Científica, Biotecnologia, Carreira Militar
+
+Grande Área: CIENCIAS_BIOLOGICAS
+Áreas de Conhecimento: Ecologia, Fisiologia, Zoologia, Biologia Geral, Parasitologia, Biofísica, Bioquímica, Genética, Botânica, Multidisciplinar, Microbiologia, Biotecnologia, Morfologia, Imunologia, Farmacologia, Ciências Ambientais, Administração Hospitalar, Ciências, Biomedicina
+
+Grande Área: CIENCIAS_DA_SAUDE
+Áreas de Conhecimento: Saúde Coletiva, Farmácia, Medicina, Enfermagem, Odontologia, Nutrição, Educação Física, Fisioterapia e Terapia Ocupacional, Multidisciplinar, Administração Hospitalar, Fonoaudiologia, Ciências Ambientais, Ciências, Biotecnologia, Bioética, Defesa, Biomedicina
+
+Grande Área: OUTROS
+Áreas de Conhecimento: Multidisciplinar, Ciências Ambientais, Administração Hospitalar, Defesa, Robótica, Mecatrônica e Automação, Divulgação Científica, Ciências Sociais, Ciências, Biotecnologia, Bioética, Relações Internacionais, Administração Rural, Segurança Contra Incêndio, Carreira Militar, Microeletrônica, Biomedicina
+
+Grande Área: CIENCIAS_HUMANAS
+Áreas de Conhecimento: Filosofia, Educação, Psicologia, História, Multidisciplinar, Geografia, Sociologia, Antropologia, Ciência Política, Administração Hospitalar, Teologia, Ciências Ambientais, Ciências Sociais, Arqueologia, Defesa, Bioética, Relações Internacionais, Divulgação Científica, Direito, Biotecnologia
+
+Grande Área: LINGUISTICA_LETRAS_E_ARTES
+Áreas de Conhecimento: Lingüística, Letras, Artes, Multidisciplinar, Administração Hospitalar, Ciências Sociais, Ciências Ambientais
+
+Grande Área: CIENCIAS_AGRARIAS
+Áreas de Conhecimento: Medicina Veterinária, Agronomia, Ciência e Tecnologia de Alimentos, Zootecnia, Engenharia Agrícola, Multidisciplinar, Recursos Pesqueiros e Engenharia de Pesca, Recursos Florestais e Engenharia Florestal, Biotecnologia, Ciências Ambientais, Ciências, Administração Hospitalar
+
