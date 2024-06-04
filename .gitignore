@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+resultados.csv
+TCC_completo.db
+TCC.db
+TCC.sqbpro
