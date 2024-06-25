@@ -1,11 +1,11 @@
 import * as React from 'react';
 import ReactDOM from 'react-dom/client';
-
-const root: ReactDOM.Root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
-
 import GraphComponent from './GraphComponent.tsx';
 import data from './dados.json';  // Importe seus dados
 import Chart from './ReCharts.tsx';
+import './index.css';
+
+const root: ReactDOM.Root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 
 const App: React.FC = () => {
   return (
