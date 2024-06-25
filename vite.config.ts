@@ -3,5 +3,11 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   base: '/TCC/',
-  plugins: [react()]
+  plugins: [react()],
+  build: {
+    outDir: 'docs', 
+    rollupOptions: {
+      input: 'public/index.html', 
+    }
+  }
 });

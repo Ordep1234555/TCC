@@ -1,14 +1,13 @@
 {
   "name": "tcc2",
+  "version": "0.1.0",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
   "homepage": "https://ordep1234555.github.io/TCC/",
   "scripts": {
     "start": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d docs"
   },
   "dependencies": {
     "@emotion/react": "^11.11.3",
