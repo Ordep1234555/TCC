@@ -1,5 +1,5 @@
-import React, { useState, useRef } from "react";
-import data from './dados_completos.json';
+import React, { useState } from "react";
+import data from './dados_completos.json'
 import {
     BarChart,
     Bar,
@@ -14,8 +14,7 @@ import {
 import Box from '@mui/material/Box';
 import Slider from '@mui/material/Slider';
 import Typography from '@mui/material/Typography';
-import { toPng } from 'html-to-image';
-import download from 'downloadjs';
+import { JSX } from "react/jsx-runtime";
 
 interface DataItem {
     ano: number;
@@ -27,13 +26,12 @@ interface DataItem {
 export default function Chart() {
     const [selectedType, setSelectedType] = useState('both');
     const [selectedArea, setSelectedArea] = useState('');
-    const isMestrado = ["both", "conclusoes_mestrado"].includes(selectedType);
-    const isDoutorado = ["both", "conclusoes_doutorado"].includes(selectedType);
+    const isMestrado = ["both", "conclusoes_mestrado"].includes(selectedType)
+    const isDoutorado = ["both", "conclusoes_doutorado"].includes(selectedType)
     const [yearRange, setYearRange] = React.useState<number[]>([1946, 2024]);
     const minDistance = 10;
     const [chartType, setChartType] = useState('bar');
     const [showValues, setShowValues] = useState(false);
-    const chartRef = useRef(null);
 
     const handleChange = (
         _event: Event,
@@ -90,18 +88,7 @@ export default function Chart() {
     // Converter o mapa em um array para ser usado no gráfico
     const summedData: DataItem[] = Array.from(summedDataMap.values());
 
-    const handleDownload = () => {
-        if (chartRef.current === null) {
-            return;
-        }
-        toPng(chartRef.current)
-            .then((dataUrl) => {
-                download(dataUrl, 'chart.png');
-            })
-            .catch((err) => {
-                console.error('Failed to download image', err);
-            });
-    };
+
 
     return (
         <div style={{ width: '95vw', height: '80vh' }} >
@@ -144,9 +131,6 @@ export default function Chart() {
                         onChange={() => setShowValues(!showValues)}
                     />
                 </div>
-                <div style={{ marginLeft: '20px' }}>
-                    <button onClick={handleDownload}>Download Gráfico</button>
-                </div>
             </div>
             <Box sx={{ Width: 300 }}>
                 <Typography gutterBottom>Período</Typography>
@@ -160,9 +144,12 @@ export default function Chart() {
                     max={2024}
                 />
             </Box>
-            <div style={{ width: '100%', height: '95%' }} ref={chartRef}>
-                <ResponsiveContainer width="100%" height="100%">
+            <ResponsiveContainer
+                width='100%'
+                height='95%'>
                     <BarChart
+                    width={500}
+                    height={300}
                         data={summedData}
                         margin={{
                             top: 40,
@@ -207,7 +194,6 @@ export default function Chart() {
                         </Bar>}
                     </BarChart>
                 </ResponsiveContainer>
-            </div>
         </div>
     );
 }
